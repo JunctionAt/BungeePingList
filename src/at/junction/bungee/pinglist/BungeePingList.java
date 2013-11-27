@@ -1,9 +1,9 @@
-package at.junction.bungee.query;
+package at.junction.bungee.pinglist;
 
 import net.md_5.bungee.api.plugin.Plugin;
 
 //Hacked together by zifnab, please ignore the shitty code
-public class BungeeQuery extends Plugin {
+public class BungeePingList extends Plugin {
     @Override
     public void onEnable() {
 		super.onEnable();
