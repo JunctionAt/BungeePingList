@@ -1,0 +1,4 @@
+name: BungeeQuery
+main: at.junction.bungee.pinglist.BungeePingList
+version: ${pom.version}-${build.number}
+author: zifnab06
