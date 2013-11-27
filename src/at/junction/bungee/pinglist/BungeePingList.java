@@ -6,10 +6,11 @@ import net.md_5.bungee.api.plugin.Plugin;
 public class BungeePingList extends Plugin {
     @Override
     public void onEnable() {
-		super.onEnable();
+            getProxy().getPluginManager().registerListener(this, new BungeePingListEvent(this));
+            super.onEnable();
 	}
 	@Override
 	public void onDisable() {
-		super.onDisable();
+            super.onDisable();
 	}
 }
